@@ -1,10 +1,11 @@
+import { Outlet } from 'react-router-dom'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1>APP</h1>
+      <Outlet />
     </>
   )
 }
