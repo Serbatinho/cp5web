@@ -1,12 +1,16 @@
+import { Outlet } from "react-router-dom";
+import Footer from "./Components/Footer";
+import Menu from "./components/Menu";
 import './App.css'
 
-function App() {
+export default function App() {
 
+  //Criando props para ser transmitido para um dos componentes filhos.
   return (
     <>
-      <h1>APP</h1>
+      <Menu />
+      <Outlet />
+      <Footer />
     </>
   )
 }
-
-export default App
