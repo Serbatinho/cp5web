@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Menu from "./components/Menu";
+import './App.css'
 
 export default function App() {
 
